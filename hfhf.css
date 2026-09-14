@@ -3,7 +3,7 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(120deg, brown, purple, pink);
+  background: linear-gradient 120deg, skyblue1, lightblue2, lightblue3;
 }
 a {
   color: white;
