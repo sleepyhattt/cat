@@ -6,12 +6,12 @@ body {
   background: linear-gradient(120deg, purple, lightblue, pink);
       }
 a {
-  color: white;
+  color: blue;
 }
 
 a:visited {
   
-  color: grey;
+  color: white;
       }
       
 a:hover {
@@ -95,7 +95,7 @@ ul {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: indigo;
+  background-color: pink;
 }
 .flat-page .content .container {
   display: flex;
