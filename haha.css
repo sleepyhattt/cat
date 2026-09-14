@@ -3,19 +3,19 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  background: linear-gradient(120deg, blue, pink, red);
+  background: linear-gradient(120deg, olive, celery, chartreuse);
 }
 a {
-  color: blue;
+  color: white;
 }
 
 a:visited {
   
-  color: pink;
+  color: gray;
       }
       
 a:hover {
-  color: red;
+  color: pink;
       }
 ul {
   list-style: none;
@@ -82,7 +82,7 @@ ul {
 }
 .flat-page header .links li {
   margin-left: 10px;
-  color: red;
+  color: pink;
   cursor: pointer;
   transition: .3s;
 }
@@ -95,7 +95,7 @@ ul {
   border-radius: 20px;
   padding: 10px 20px;
   color: #FFF;
-  background-color: цвет кнопки;
+  background-color: plum;
 }
 .flat-page .content .container {
   display: flex;
