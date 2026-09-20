@@ -4,7 +4,7 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
-  background-color: skyblue;
+  background-color: white;
 }
 .box {
     width: 80%;
@@ -28,78 +28,6 @@ html, body {
 .margin-bot-10 {
  padding-bottom: 10px;
 }
-
-сентября 16, 2026
-ЖМК-201/2. ВЕБ-ДИЗАЙН. ПРАКТИЧЕСКОЕ ЗАНЯТИЕ №2. FLAT-ДИЗАЙН C ДИНАМИЧНЫМИ ЭЛЕМЕНТАМИ
-Вам нужно создать страницу, реализованную по принципам плоского дизайна, включающую в себя:
-
-- три иллюстрации
-- три блока текста со стартовыми буквами
-- три градиент-разделителя
-
-Настройки блога для верного отображения задания: Notable Light - с настройками из предыдущего задания +
-
-Тема - настройки - расширенные - заголовок - цвет фона - прозрачный
-Тема - настройки - расширенные - отдельное сообщение или страница - цвет фона заголовков сообщений - прозрачный
-
-
-При этом переход градиента в стартовых буквах должен в целом совпадать с логикой иллюстраций и начинаться с того же цвета, что и каждая из стартовых букв.
-
-Для создания страницы потребуется конфигурация стилей в CSS и подключение этих стилей к коду страницы в HTML.
-
-
-I) Параметры стилей
-
-1) Через директиву импорта указываем шрифты, которые будут использоваться на странице:
-
-@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic);
-
-2) В селекторе указываете высоту страницы и ее фон (задайте нужный вам):
-
-html, body {
-  font-family: 'Open Sans', sans-serif;
-  height: 100%;
-  margin: 0;
-  background-color: ?;
-}
-
-3) Создайте класс упаковки страницы. В нем указывается расположение элементов и их размер:
-  
-.box {
-    width: 80%;
-    position: absolute;
-    margin-top: -450px;
-  overflow: auto;
-}
-
-
-
-4) В идентификаторе задаем основные размеры страницы – в моем случае 100%:
-
-#main {
- width: 100%;
- padding: 0;
-}
-.content-asset p {
- margin: 0 auto;
-}
-.breadcrumb {
- display: none;
-}
-
-5) Задаем отступы сверху и снизу:
-
-
-.margin-top-10 {
- padding-top: 10px;
-}
-.margin-bot-10 {
- padding-bottom: 10px;
-}
-
-4) Для каждого заголовка указываем шрифт, кегль, цвет и отступы:
-
 #flat h1 {
  font-family: 'Oswald', sans-serif;
  font-size: 24px;
@@ -135,6 +63,7 @@ html, body {
  font-weight: 400;
  font-size: 14px;
  line-height: 24px;
+ color: black;
 }
 .first-character {
  font-weight: 400;
@@ -190,13 +119,13 @@ html, body {
  background-color: black;
  opacity: 0.70;
 }
-#flat .parallax-one {
+#flat .parallax-oneone {
  padding-top: 200px;
  padding-bottom: 200px;
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("blob:https://github.com/940e0547-7f5a-4bc1-8b72-f5135d6b200e");
+ background-image: url("https://raw.githack.com/sleepyhattt/cat/112c1a6d3af2401f670f9e63ebd38c084d79fd03/%20-5.jpg");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
@@ -204,45 +133,47 @@ html, body {
  background-repeat: no-repeat;
  background-position: top center;
 }
+
+#flat .parallax-onetwo {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/sleepyhattt/cat/112c1a6d3af2401f670f9e63ebd38c084d79fd03/%20-2.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
+
+#flat .parallax-onethree {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githack.com/sleepyhattt/cat/112c1a6d3af2401f670f9e63ebd38c084d79fd03/%20-1.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center center;
+}
 #flat .line-break {
  background: linear-gradient(60deg, blue, skyblue, lightblue);
  width: 100%;
  margin: 0 auto;
 }
-#flat .parallax-one {
- padding-top: 200px;
- padding-bottom: 200px;
- overflow: hidden;
- position: relative;
- width: 100%;
- background-image: url("blob:https://github.com/f11721cf-9569-4034-84b2-45a99df43664");
- background-attachment: fixed;
- background-size: cover;
- -moz-background-size: cover;
- -webkit-background-size: cover;
- background-repeat: no-repeat;
- background-position: center center;
-}
-#flat .line-break {
+#flat .line-breakone {
  background: linear-gradient(60deg, purple, plum, violet);
  width: 100%;
  margin: 0 auto;
 }
-#flat .parallax-one {
- padding-top: 200px;
- padding-bottom: 200px;
- overflow: hidden;
- position: relative;
- width: 100%;
- background-image: url("blob:https://github.com/27a46093-6425-40f6-a125-d4a83873b504");
- background-attachment: fixed;
- background-size: cover;
- -moz-background-size: cover;
- -webkit-background-size: cover;
- background-repeat: no-repeat;
- background-position: center center;
-}
-#flat .line-break {
+#flat .line-breaktwo {
  background: linear-gradient(60deg, darkgreen, olive, green);
  width: 100%;
  margin: 0 auto;
