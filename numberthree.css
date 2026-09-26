@@ -64,6 +64,7 @@ ul {
   margin-top: 15vw;
   letter-spacing: 0.2vw;
   z-index: 3;
+  color: skyblue;
 }
   
 li {
@@ -178,6 +179,7 @@ img {
   letter-spacing: 0.1vw;
   margin-top: 5vw;
   margin-left: 17vw;
+  color: #302c2d;
 }
 
  @keyframes expand {
@@ -251,6 +253,7 @@ ul {
   margin-top: -12vw;
   letter-spacing: 0.2vw;
   z-index: 3;
+  color: black
 }
   
 li {
@@ -369,6 +372,7 @@ img {
   letter-spacing: 0.25vw;
   margin-top: 2.63vw;
   margin-left: 10.1vw;
+  color: #302c2d
 }
   
  @keyframes expand {
@@ -422,6 +426,6 @@ img {
   margin-top: 6vw;
   margin-left: 525px;
   z-index: 1;
- filter: drop-shadow(4px 10px 15px #808080);
+ filter: drop-shadow(4px 10px 15px black);
 }
 }
