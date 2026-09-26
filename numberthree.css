@@ -64,7 +64,6 @@ ul {
   margin-top: 15vw;
   letter-spacing: 0.2vw;
   z-index: 3;
-  color: skyblue;
 }
   
 li {
@@ -81,9 +80,9 @@ li:hover  {
 
 #one {background-color:#CD5C5C;}
 #two {background-color:#FFA07A;}
-#three {background-color: #3CB371 }
-#four {background-color: #20B2AA }
-#five {background-color: #6B8E23 }
+#three {background-color:#3CB371;}
+#four {background-color:#20B2AA;}
+#five {background-color:#6B8E23;}
 
 section {
   position: relative;
@@ -179,7 +178,6 @@ img {
   letter-spacing: 0.1vw;
   margin-top: 5vw;
   margin-left: 17vw;
-  color: #302c2d;
 }
 
  @keyframes expand {
@@ -253,7 +251,6 @@ ul {
   margin-top: -12vw;
   letter-spacing: 0.2vw;
   z-index: 3;
-  color: black
 }
   
 li {
@@ -372,7 +369,6 @@ img {
   letter-spacing: 0.25vw;
   margin-top: 2.63vw;
   margin-left: 10.1vw;
-  color: #302c2d
 }
   
  @keyframes expand {
