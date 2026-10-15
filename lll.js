@@ -8,6 +8,8 @@ var currentTime = document.querySelector('.current-time')
 
 var duration = document.querySelector('.duration')
 
+
+
 function handlePlay() {
 
     if (music.paused) {
@@ -40,6 +42,8 @@ function handlePlay() {
 
 }
 
+
+
 music.onloadeddata = function () {
 
     seekbar.max = music.duration
@@ -66,69 +70,3 @@ music.addEventListener('timeupdate', function () {
 
 
 }, false)
-
-var repIcon = document.querySelector('.repeat')
-
-function handleRepeat() {
-
-    if (music.loop == true) {
-
-        music.loop = false
-
-        repIcon.classList.toggle('active')
-
-    }
-
-    else {
-
-        music.loop = true
-
-        repIcon.classList.toggle('active')
-
-    }
-
-}
-
-var volIcon = document.querySelector('.volume')
-
-var volBox = document.querySelector('.volume-box')
-
-var volumeRange = document.querySelector('.volume-range')
-
-var volumeDown = document.querySelector('.volume-down')
-
-var volumeUp = document.querySelector('.volume-up')
-
-
-
-function handleVolume() {
-
-    volIcon.classList.toggle('active')
-
-    volBox.classList.toggle('active')
-
-}
-
-
-
-volumeDown.addEventListener('click', handleVolumeDown);
-
-volumeUp.addEventListener('click', handleVolumeUp);
-
-
-
-function handleVolumeDown() {
-
-    volumeRange.value = Number(volumeRange.value) - 20
-
-    music.volume = volumeRange.value / 100
-
-}
-
-function handleVolumeUp() {
-
-    volumeRange.value = Number(volumeRange.value) + 20
-
-    music.volume = volumeRange.value / 100
-
-}
