@@ -1,9 +1,10 @@
+.class {
 width: 100%;
 
   position: absolute;
 
   margin-top: -50vh;
-
+}
   :root {
 
   --space-xs: 8px;
@@ -20,7 +21,7 @@ width: 100%;
 
   --white: white;
 
-  --gray: #D3D3D3;
+  --gray: ##B22222;
 
   --main: Darkred;
 
