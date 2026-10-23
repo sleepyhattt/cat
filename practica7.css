@@ -1,5 +1,5 @@
 .class {
-width: 150%;
+width: 200%;
 
   position: absolute;
 
@@ -17,7 +17,7 @@ width: 150%;
 
 
 
-  --noir: rgba(102, 205, 170, 0.82), transparent 50%;
+  --noir: rgba(79, 38, 47), transparent 50%;
 
   --white: white;
 
@@ -25,7 +25,7 @@ width: 150%;
 
   --main: Darkred;
 
-  --additional: rgba(102, 205, 170);
+  --additional: rgba(115, 33, 51);
 
 
 
@@ -778,6 +778,8 @@ html.visual body {
   font-family: var(--mono);
 
   text-transform: uppercase;
+
+  color: whith;
 
 }
 
