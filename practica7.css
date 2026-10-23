@@ -4,6 +4,10 @@ width: 200%;
   position: absolute;
 
   margin-top: -50vh;
+
+  align-items: center; 
+  
+  justify-content: center; 
 }
   :root {
 
