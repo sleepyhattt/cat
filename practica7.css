@@ -719,7 +719,7 @@ html.visual body {
 
   background: var(--main);
 
-  transform-origin: left center;
+  transform-origin: center;
 
 }
 
