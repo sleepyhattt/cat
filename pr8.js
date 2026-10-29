@@ -38,7 +38,7 @@ for (let g = 0; g < groupCount; g++) {
 	const video = document.createElement("video");
 	video.crossOrigin = "anonymous";
 	video.src =
-		"https://raw.githubusercontent.com/sleepyhattt/cat/main/snow_transparent_fast.webm";
+		"https://raw.githubusercontent.com/sleepyhattt/cat/main/4cba9ae52a2a4a9c8ca8220cd8d6a0d3.webm";
 	video.loop = true;
 	video.muted = true;
 	video.playbackRate = 0.010 + Math.random() * 1.0;
@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://raw.githack.com/sleepyhattt/cat/refs/heads/main/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+	"https://github.com/sleepyhattt/cat/raw/refs/heads/main/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
