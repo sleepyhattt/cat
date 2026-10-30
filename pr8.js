@@ -90,7 +90,7 @@ for (let g = 0; g < groupCount; g++) {
 }
 const hdrLoader = new HDRLoader();
 const hdrTexture = hdrLoader.load(
-	"https://github.com/sleepyhattt/cat/raw/refs/heads/main/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
+	"https://raw.githubusercontent.com/sleepyhattt/cat/refs/heads/main/kloofendal_48d_partly_cloudy_puresky_2k.hdr",
 	() => {
 		hdrTexture.mapping = THREE.EquirectangularReflectionMapping;
 		hdrTexture.colorSpace = THREE.SRGBColorSpace;
