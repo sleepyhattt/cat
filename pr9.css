@@ -270,13 +270,13 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(100);
+    transform: translateY(500);
 
   }
 
   100% {
 
-    transform: translateY(310vh);
+    transform: translateY(210vh);
 
   }
 
@@ -284,7 +284,7 @@ div#bg-1-5{
 
 .star {
 
-  animation: star 8s infinite;
+  animation: star 10s infinite;
 
 }
 
@@ -292,13 +292,13 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(100);
+    transform: translateY(500);
 
   }
 
   100% {
 
-    transform: translateY(310vh);
+    transform: translateY(210vh);
 
   }
 
@@ -306,7 +306,7 @@ div#bg-1-5{
 
 .white {
 
-  animation: white 6s infinite;
+  animation: white 10s infinite;
 
 }
 
@@ -314,13 +314,13 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(100);
+    transform: translateY(500);
 
   }
 
   100% {
 
-    transform: translateY(310vh);
+    transform: translateY(210vh);
 
   }
 
