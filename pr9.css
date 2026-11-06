@@ -72,9 +72,9 @@ div#bg-3-1{
 
 	width:20px;
 
-	height:50px;
+	height:30px;
 
-	top:-100px;
+	top:-500px;
 
 	right:100px;
 
@@ -83,9 +83,9 @@ div#bg-3-2{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6431-no-bg-preview%20(carve.photos).png');
 
-	width:53px;
+	width:23px;
 
-	height:33px;
+	height:13px;
 
 	top:1050px;
 
@@ -109,9 +109,9 @@ div#bg-3-4{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/835e1e140df59d9fd9e25767d1c9f87ebf47854c/IMG_6433-no-bg-preview%20(carve.photos).png');
 
-	width:1104px;
+	width:904px;
 
-	height:684px;
+	height:584px;
 
 	top:2800px;
 
@@ -128,9 +128,9 @@ div#parallax-bg-2 div{
 
 	display:block;
 
-	width:288px;
+	width:188px;
 
-	height:238px;
+	height:138px;
 
 	overflow:hidden;
 
@@ -193,9 +193,9 @@ div#parallax-bg-1 div{
 
 	display:block;
 
-	width:488px;
+	width:188px;
 
-	height:538px;
+	height:238px;
 
 	overflow:hidden;
 
@@ -253,40 +253,40 @@ div#bg-1-5{
 }
 .hands {
 
-  animation: hands 5s infinite;
+  animation: hands 10s infinite;
 
 }
 @keyframes hands {
 
   0% {
 
-    transform: translateY(0);
+    transform: translateY(0vh);
 
   }
 
   100% {
 
-    transform: translateY(410vh);
+    transform: translateY(810vh);
 
   }
 
 }
 .star {
 
-  animation: star 5s infinite;
+  animation: star 7s infinite;
 
 }
 @keyframes star {
 
   0% {
 
-    transform: translateY(0);
+    transform: translateY(0vh);
 
   }
 
   100% {
 
-    transform: translateY(410vh);
+    transform: translateY(710vh);
 
   }
 
@@ -300,13 +300,13 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(0);
+    transform: translateY(0vh);
 
   }
 
   100% {
 
-    transform: translateY(410vh);
+    transform: translateY(610vh);
 
   }
 
