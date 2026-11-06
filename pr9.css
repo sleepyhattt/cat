@@ -70,11 +70,11 @@ div#bg-3-1{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6426-no-bg-preview%20(carve.photos).png');
 
-	width:20px;
+	width:200px;
 
-	height:30px;
+	height:300px;
 
-	top:-500px;
+	top:-100px;
 
 	right:100px;
 
@@ -83,9 +83,9 @@ div#bg-3-2{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6431-no-bg-preview%20(carve.photos).png');
 
-	width:23px;
+	width:303px;
 
-	height:13px;
+	height:283px;
 
 	top:1050px;
 
@@ -109,9 +109,9 @@ div#bg-3-4{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/835e1e140df59d9fd9e25767d1c9f87ebf47854c/IMG_6433-no-bg-preview%20(carve.photos).png');
 
-	width:904px;
+	width:504px;
 
-	height:584px;
+	height:384px;
 
 	top:2800px;
 
@@ -193,9 +193,9 @@ div#parallax-bg-1 div{
 
 	display:block;
 
-	width:188px;
+	width:388px;
 
-	height:238px;
+	height:438px;
 
 	overflow:hidden;
 
@@ -236,7 +236,7 @@ div#bg-1-4{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6426-no-bg-preview%20(carve.photos).png');
 
-	top:750px;
+	top:1350px;
 
 	left:200px;
 
@@ -260,7 +260,7 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(0vh);
+    transform: translateY(0);
 
   }
 
@@ -280,7 +280,7 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(0vh);
+    transform: translateY(0);
 
   }
 
@@ -300,7 +300,7 @@ div#bg-1-5{
 
   0% {
 
-    transform: translateY(0vh);
+    transform: translateY(0);
 
   }
 
