@@ -4,15 +4,13 @@ background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a
 
 height:5600px;
 
-width:4000px;
-
 }
 
 div#parallax-bg-1{
 
 	position: fixed;
 
-	width: 900px;
+	width: 1200px;
 
 	top: 0;
 
@@ -28,7 +26,7 @@ div#parallax-bg-2{
 
 	position: fixed;
 
-	width: 900px;
+	width: 1200px;
 
 	top: 0;
 
@@ -74,9 +72,9 @@ div#bg-3-1{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6426-no-bg-preview%20(carve.photos).png');
 
-	width:829px;
+	width:329px;
 
-	height:957px;
+	height:557px;
 
 	top:-100px;
 
@@ -88,9 +86,9 @@ div#bg-3-2{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1b3b66cb5af2527f5d3065a47fa351529c9b17dd/IMG_6594-no-bg-preview%20(carve.photos).png');
 
-	width:1203px;
+	width:403px;
 
-	height:983px;
+	height:383px;
 
 	top:1050px;
 
@@ -102,9 +100,9 @@ div#bg-3-3{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/bfd8c46aa924f07c5d7253db4607cca1f0ca8a87/IMG_6595-no-bg-preview%20(carve.photos).png');
 
-	width:1246px;
+	width:646px;
 
-	height:913px;
+	height:513px;
 
 	top:1800px;
 
@@ -116,9 +114,9 @@ div#bg-3-4{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/835e1e140df59d9fd9e25767d1c9f87ebf47854c/IMG_6433-no-bg-preview%20(carve.photos).png');
 
-	width:1304px;
+	width:904px;
 
-	height:884px;
+	height:484px;
 
 	top:2800px;
 
@@ -136,9 +134,9 @@ div#parallax-bg-2 div{
 
 	display:block;
 
-	width:588px;
+	width:288px;
 
-	height:538px;
+	height:238px;
 
 	overflow:hidden;
 
@@ -202,7 +200,7 @@ div#parallax-bg-1 div{
 
 	display:block;
 
-	width:488px;
+	width:288px;
 
 	height:538px;
 
