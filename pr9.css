@@ -10,7 +10,7 @@ div#parallax-bg-1{
 
 	position: fixed;
 
-	width: 900px;
+	width: 1200px;
 
 	top: 0;
 
@@ -26,7 +26,7 @@ div#parallax-bg-2{
 
 	position: fixed;
 
-	width: 900px;
+	width: 1200px;
 
 	top: 0;
 
@@ -44,7 +44,7 @@ div#parallax-bg-3{
 
 	position: fixed;
 
-	width: 760px;
+	width: 960px;
 
 	top: 0;
 
@@ -72,9 +72,9 @@ div#bg-3-1{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6426-no-bg-preview%20(carve.photos).png');
 
-	width:229px;
+	width:529px;
 
-	height:457px;
+	height:757px;
 
 	top:-100px;
 
@@ -86,9 +86,9 @@ div#bg-3-2{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6431-no-bg-preview%20(carve.photos).png');
 
-	width:303px;
+	width:603px;
 
-	height:283px;
+	height:583px;
 
 	top:1050px;
 
@@ -100,9 +100,9 @@ div#bg-3-3{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/1a9df0a74e4297b667a05f0a49102ff02dc30190/IMG_6430-no-bg-preview%20(carve.photos).png');
 
-	width:746px;
+	width:846px;
 
-	height:613px;
+	height:713px;
 
 	top:1800px;
 
@@ -114,9 +114,9 @@ div#bg-3-4{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/835e1e140df59d9fd9e25767d1c9f87ebf47854c/IMG_6433-no-bg-preview%20(carve.photos).png');
 
-	width:804px;
+	width:1104px;
 
-	height:484px;
+	height:684px;
 
 	top:2800px;
 
@@ -134,9 +134,9 @@ div#parallax-bg-2 div{
 
 	display:block;
 
-	width:188px;
+	width:488px;
 
-	height:138px;
+	height:438px;
 
 	overflow:hidden;
 
@@ -200,9 +200,9 @@ div#parallax-bg-1 div{
 
 	display:block;
 
-	width:188px;
+	width:488px;
 
-	height:238px;
+	height:538px;
 
 	overflow:hidden;
 
@@ -274,9 +274,9 @@ div#bg-1-5{
 
   }
 
-  60% {
+  100% {
 
-    transform: translateY(610vh);
+    transform: translateY(410vh);
 
   }
 
@@ -296,9 +296,9 @@ div#bg-1-5{
 
   }
 
-  60% {
+  100% {
 
-    transform: translateY(610vh);
+    transform: translateY(410vh);
 
   }
 
@@ -318,9 +318,9 @@ div#bg-1-5{
 
   }
 
-  60% {
+  100% {
 
-    transform: translateY(610vh);
+    transform: translateY(410vh);
 
   }
 
