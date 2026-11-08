@@ -76,7 +76,7 @@ div#bg-3-1{
 
 	width:329px;
 
-	height:557px;
+	height:auto;
 
 	top:-100px;
 
@@ -90,7 +90,7 @@ div#bg-3-2{
 
 	width:403px;
 
-	height:383px;
+	height:auto;
 
 	top:1050px;
 
@@ -104,7 +104,7 @@ div#bg-3-3{
 
 	width:646px;
 
-	height:513px;
+	height:auto;
 
 	top:1800px;
 
@@ -118,7 +118,7 @@ div#bg-3-4{
 
 	width:904px;
 
-	height:484px;
+	height:auto;
 
 	top:2800px;
 
