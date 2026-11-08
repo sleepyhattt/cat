@@ -66,6 +66,8 @@ div#parallax-bg-3 div{
 
 	overflow:hidden;
 
+	background-size: contain;
+
 }
 
 div#bg-3-1{
