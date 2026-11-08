@@ -74,7 +74,7 @@ div#bg-3-1{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/40d8f9aa3270bbdfb1ae88bbfcf8bf2a550cc220/IMG_6426-no-bg-preview%20(carve%20(%D1%84%D0%BE%D0%BD%20%D1%83%D0%B4%D0%B0%D0%BB%D0%B5%D0%BD).photos)-2.png');
 
-	width:350px;
+	width:450px;
 
 	height:auto;
 
@@ -88,7 +88,7 @@ div#bg-3-2{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/58dfadfe1243b1134c3e805a000c5571d8cfc631/IMG_6594-no-bg-preview%20(carve.photos)-2.png');
 
-	width:400px;
+	width:800px;
 
 	height:auto;
 
@@ -102,7 +102,7 @@ div#bg-3-3{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/5409ae8fbec4f0e289a90fe9b608e6eca9df5986/IMG_6595-no-bg-preview%20(carve.photos)-2.png');
 
-	width:450px;
+	width:650px;
 
 	height:auto;
 
@@ -116,7 +116,7 @@ div#bg-3-4{
 
 	background:url('https://raw.githack.com/sleepyhattt/cat/090fbcf2ead9d627959f89509f3b8455e16201bc/IMG_6433-no-bg-preview%20(carve.photos)-2.png');
 
-	width:500px;
+	width:800px;
 
 	height:auto;
 
@@ -136,9 +136,9 @@ div#parallax-bg-2 div{
 
 	display:block;
 
-	width:288px;
+	width:488px;
 
-	height:238px;
+	height:438px;
 
 	overflow:hidden;
 
